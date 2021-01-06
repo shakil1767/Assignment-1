@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #2a3132;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: inherit;
+    margin-bottom: 0px;
+}
+h3{
+    color: #2a3132;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: inherit;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+ /* Background of all sections */
+.first-section,.second-section{
+    height: 500px; 
+} 
+.third-section{
+    height: 550px;
+    background-color: #fcf9f9;
+    padding: 20px;
+    margin-top: 50px;
+}
+.extra-section{
+    height: 500px;
+    text-align: center;
+}
+.fourth-section{
+    height: 600px;
+    background: rgb(255, 255, 255);
+    background-image: url(images/banner.png);
+    background-position: top;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    margin-bottom: 50px;
+}
+/* Main Heading Properties */
+h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 10px;
+    font-style: normal;
+    font-weight: inherit;
+    margin-bottom: 0px;
+}
+#mainheading1{
+    color: #2a3132;
+}
+#mainheading2{
+    color: #80b4cc;
+}
+/* Paragraph Properties */
+.first-section p{
+    margin-top: 45px;
+    font-family: 'Roboto', sans-serif;
+    color:#3E3E3E;
+}
+.second-section p{
+    font-family: 'Roboto', sans-serif;
+    color:#3E3E3E;
+    margin-top: 0px;
+}
+.third-section p{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color:#3E3E3E;
+}
+.extra-section p{
+    font-family: 'Roboto', sans-serif;
+    color:#3E3E3E;
+    padding: 25px;
+    width: 70%;
+    margin-left:12%;
+}
+/* Button Properties */
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to left top, #0c94d3, rgb(220, 218, 230));
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+    font-family:'Roboto', sans-serif;
+}
+/* Welcome Section Properties */
+.first-half{
+    width: 30%;
+    float: left;
+    margin-left:10%;
+}
+.second-half{
+    width: 50%;
+    float: left;
+    margin-left:10%;
+}
+.first-section img{
+    width: 75%;
+}
+/* About Section Properties */
+.third-half{
+    width: 50%;
+    float: left;
+    margin-left:10%;
+}
+.fourth-half{
+    width: 30%;
+    float: left;  
+}
+.second-section img{
+    width: 60%;
+}
+
+/* Working Project Section Properties */
+.projects-name{
+    float: left;
+    width: 25%;
+    display: block;
+    margin: 0 15px;
+    padding: 10px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.working-projects{
+    margin-left: 180px;
+}
+.projects-name img{
+    width: 100%;
+    height: 100%;
+} 
+.third-section h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Extra Section Properties */
+.services{
+    text-align: center;
+    width: 22%;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow:  -15px -15px 15px rgba(255, 255, 255, 0.2), 
+                15PX 15px 15px 0 rgba(0, 0, 0, 0.1),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+                inset  5PX 5px 5px 0 rgba(0, 0, 0, 0.1);
+            }
+.service-list{
+    margin-left: 50px ;
+    margin-top: 20px;
+}
+.services img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+/* Fourth Section */
+.heading-highlight{
+    color: tomato;
+}
+.chat-btn{
+    margin-left: 250px;
+    margin-top: 16%;
+    display: inline-block;
+}
+.inquiry-text{
+    margin-left: 350px;
+    color: white;
+    font-size: 55px;
+    margin-top: 16%;
+    display: inline-block;
+}
+.contact-section{
+    text-align: center;
+    margin-top: 150px;
+}
+.contact-img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+#stay-connected{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+#contact-mail{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
